@@ -1,0 +1,7 @@
+torch==2.1.0+cu118
+matplotlib
+numpy
+scipy
+sewar
+skimage
+tqdm
