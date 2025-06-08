@@ -3,5 +3,5 @@ matplotlib
 numpy
 scipy
 sewar
-skimage
+scikit-image
 tqdm
