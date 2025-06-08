@@ -24,7 +24,7 @@ conda activate args
 2. Requirements installation
 
 ```shell
-pip install -r requirements
+pip install -r requirements.txt
 ```
 
 ## Quick Start (using the Pavia dataset as an example)
