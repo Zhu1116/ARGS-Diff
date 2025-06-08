@@ -1,4 +1,4 @@
-torch==2.1.0+cu118
+torch==2.1.0
 matplotlib
 numpy
 scipy
