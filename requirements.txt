@@ -1,6 +1,6 @@
 torch==2.1.0
 matplotlib
-numpy
+numpy==1.26.4
 scipy
 sewar
 scikit-image
