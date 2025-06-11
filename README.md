@@ -1,4 +1,4 @@
-# [CVPR 2025] ARGS-Diff
+# [CVPR 2025] Self-Learning Hyperspectral and Multispectral Image Fusion via Adaptive Residual Guided Subspace Diffusion Model
 
 <a href="https://arxiv.org/abs/2505.11800"><img src="https://img.shields.io/badge/ariXv-2505.11800-A42C25.svg" alt="arXiv"></a>
 
