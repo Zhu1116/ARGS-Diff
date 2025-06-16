@@ -1,11 +1,11 @@
-# [CVPR 2025] Self-Learning Hyperspectral and Multispectral Image Fusion via Adaptive Residual Guided Subspace Diffusion Model
+# [CVPR 2025] ARGS-Diff
 
-<a href="https://arxiv.org/abs/2505.11800"><img src="https://img.shields.io/badge/ariXv-2505.11800-A42C25.svg" alt="arXiv"></a>
+<a href="https://arxiv.org/abs/2505.11800"><img src="https://img.shields.io/badge/ariXv-2505.11800-A42C25.svg" alt="arXiv"></a> [![arXiv](https://img.shields.io/badge/paper-cvpr2025-cyan)](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhu_Self-Learning_Hyperspectral_and_Multispectral_Image_Fusion_via_Adaptive_Residual_Guided_CVPR_2025_paper.pdf)
 
 > **Self-Learning Hyperspectral and Multispectral Image Fusion via Adaptive Residual Guided Subspace Diffusion Model**
-> <br>
+>
 > Jian Zhu, [He Wang](https://scholar.google.com.hk/citations?user=J5bNDdYAAAAJ), [Yang Xu](https://scholar.google.com.hk/citations?user=c8j941EAAAAJ), [Zebin Wu](https://scholar.google.com.hk/citations?user=y_FtCsYAAAAJ), and Zhihui Wei
-> <br>
+>
 > Nanjing University of Science and Technology
 
 ## Framework
@@ -27,7 +27,13 @@ conda activate args
 pip install -r requirements.txt
 ```
 
-## Quick Start (using the Pavia dataset as an example)
+## Quick Start 
+
+```bash
+python sample_subspace.py --mode 'semi'
+```
+
+## Sample on Your Own Data
 
 ### Train
 
