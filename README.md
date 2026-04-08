@@ -1,4 +1,4 @@
-# [CVPR 2025] ARGS-Diff
+# ARGS-Diff: Self-Learning Hyperspectral and Multispectral Image Fusion via Adaptive Residual Guided Subspace Diffusion Model
 
 <a href="https://arxiv.org/abs/2505.11800"><img src="https://img.shields.io/badge/ariXv-2505.11800-A42C25.svg" alt="arXiv"></a> [![arXiv](https://img.shields.io/badge/paper-cvpr2025-cyan)](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhu_Self-Learning_Hyperspectral_and_Multispectral_Image_Fusion_via_Adaptive_Residual_Guided_CVPR_2025_paper.pdf)
 
@@ -43,7 +43,7 @@ refer to [ARGS-Diff-train](https://github.com/Zhu1116/ARGS-Diff-train) to train 
 
 1. Place the `pavia.mat` file into the `data` folder. This file should contain the following keys: `LR-HSI`, `HR-MSI`, and optionally `HR-HSI`.
 
-2. Copy the pretrained model file `ema_0.9999_030000.pt` from the training project [ARGS-Diff-train](https://github.com/Zhu1116/ARGS-Diff-train) `spatial_train_result/pavia/` to the `ckpt/pavia/` directory of the current project, and rename it to `spa.pt`.
+2. Copy the pretrained model file `ema_0.9999_030000.pt` from the training project [ARGS-Diff-train](https://github.com/Zhu1116/ARGS-Diff-train) `spatial_train_result/pavia/` to the `ckpt/pavia/` directory of the current project, and rename it to `spa.pt`. Meanwhile, copy the corresponding spectral model file from `spectral_train_result/pavia/` to the `ckpt/pavia/` directory, and rename it to `spe.pt`.
 
 3. Modify line 46 in `sample_subspace.py` to use `"pavia"`, then run:
 
