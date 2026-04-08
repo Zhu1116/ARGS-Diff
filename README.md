@@ -1,4 +1,4 @@
-# ARGS-Diff: Self-Learning Hyperspectral and Multispectral Image Fusion via Adaptive Residual Guided Subspace Diffusion Model
+# Self-Learning Hyperspectral and Multispectral Image Fusion via Adaptive Residual Guided Subspace Diffusion Model
 
 <a href="https://arxiv.org/abs/2505.11800"><img src="https://img.shields.io/badge/ariXv-2505.11800-A42C25.svg" alt="arXiv"></a> [![arXiv](https://img.shields.io/badge/paper-cvpr2025-cyan)](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhu_Self-Learning_Hyperspectral_and_Multispectral_Image_Fusion_via_Adaptive_Residual_Guided_CVPR_2025_paper.pdf)
 
